@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-
-* {
+*{
   margin: 0;
   padding: 0;
   user-select: none;
@@ -194,14 +193,6 @@ nav ul ul ul li {
   }
 }
 
-/* .content {
-  z-index: -1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
 header {
   font-size: 35px;
   font-weight: 600;
@@ -289,14 +280,32 @@ margin-left: 100px;
 .grid-container {
   display: grid;
   grid-row-gap: 40px;
-  /* margin-right: 50px;
-  margin-left: 208px; */
   justify-content: center;
   grid-template-columns: 140px 440px 140px 440px;
   margin-bottom: 40px;
-  
 }
 
-/* .item2{
-  grid-column: 1 / 2;
+/* .carousel-item{
+  height:32rem;
+  background:#777;
+  color:white;
+  position: relative;
+}
+
+.container1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right:0;
+  padding-bottom: 50px;
+  padding-left: 100px;
+
 } */
+.color-carousel{
+  color: black;
+}
+.carousel-inner{
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  width: 50%;
+}
