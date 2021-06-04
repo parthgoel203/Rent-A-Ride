@@ -248,7 +248,6 @@ text-decoration: none;
   margin-right: 200px;
 }
 .minicarbox1{
-  display: grid;
-
-  border-style: solid;
+  /* display: grid;
+  border-style: solid; */
 }
