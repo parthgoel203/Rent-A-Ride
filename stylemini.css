@@ -192,6 +192,9 @@ nav ul ul ul li {
     content: '\f00d';
   }
 }
+.center{
+    margin: 30px 98px 0 98px;
+  }
 .minicarline1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
