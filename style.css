@@ -284,28 +284,39 @@ margin-left: 100px;
   grid-template-columns: 140px 440px 140px 440px;
   margin-bottom: 40px;
 }
-
-/* .carousel-item{
-  height:32rem;
-  background:#777;
-  color:white;
-  position: relative;
-}
-
-.container1{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right:0;
-  padding-bottom: 50px;
-  padding-left: 100px;
-
-} */
 .color-carousel{
-  color: black;
+  color: white;
+  font-size: 15px;
 }
 .carousel-inner{
-  /* padding-left: 100px;
-  padding-right: 100px; */
   width: 50%;
+}
+#needs1{
+  margin-left: 155px;
+}
+#needs2{
+  font-size: 18px;
+    margin-left: 160px;
+    color: grey;
+}
+.reviewcontent1{
+  color: grey;
+  font-size: 15px;
+  margin-right:50px;
+  font-weight: 50;
+}
+.container2{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.namecontent{
+  font-size: 20px;
+}
+.pakagecontent{
+  font-size: 16px;
+  color: grey;
+  line-height: 0;
 }
