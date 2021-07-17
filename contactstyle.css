@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact
+{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: auto auto; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Images/contact.jpg);
+  background-size: cover;
+
+}
+.contact .content h2
+{
+  font-size: 50px;
+  font-weight: 500;
+  align-items: center;
+  color: #000;
+}
+
+.contact .content p
+{
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.container
+{
+  width: 100%;
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: auto auto; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container .contactInfo
+{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.container .contactInfo. box
+{
+position: relative;
+padding: 1810px;
+display: flex;
+}
+
+.container .contactInfo .box .icon
+{
+  width: 40px;
+  height: 30px;
+  background: #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .textarea
+{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3
+{
+font-weight: 500;
+color: darkblue;
+}
+
+.contactForm
+{
+  width: 50%;
+  padding: 70px;
+  background:#fff;
+}
+
+.contactForm h2
+{
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+
+}
+
+.contactForm .inputBox
+{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+}
+.contactForm .inputBox span
