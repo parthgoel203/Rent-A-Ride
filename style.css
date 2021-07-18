@@ -321,7 +321,7 @@ margin-left: 100px;
   color: grey;
   line-height: 0;
 }
-.footer
+/* .footer
 {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -354,4 +354,4 @@ a:link {
 color: white;
 background-color: transparent;
 text-decoration: none;
-}
+} */
