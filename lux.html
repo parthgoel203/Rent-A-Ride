@@ -5,10 +5,23 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="carfleetstyle.css">
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+  $("#navbar").load("navbar.html");
+  $("#footer").load("footer.html");
+});
+</script>
 </head>
 
 <body>
-  <nav class="fixed-top">
+  <div id="navbar"></div>
+  <!-- <nav class="fixed-top">
     <div class="logo">
       Rent A Ride
     </div>
@@ -46,11 +59,11 @@
                           <li><a href="#">Submenu-3</a></li>
                        </ul
           </li> -->
-        </ul>
+        <!-- </ul>
       </li>
       <li><a href="#">CONTACT US</a></li>
     </ul>
-  </nav>
+  </nav>  -->
 
   <br>
   <div class="center">
@@ -172,6 +185,8 @@
   </div>
   <br>
   </div>
+  <br>
+  <div id="footer"></div>
 </body>
 
 </html>

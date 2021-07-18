@@ -6,10 +6,22 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
 <link rel="stylesheet" href="contactstyle.css">
   <title></title>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+  $("#navbar").load("navbar.html");
+  $("#footer").load("footer.html");
+});
+</script>
 </head>
 
 <body>
-
+<div id="navbar"></div>
   <section class="contact">
     <div class="content">
       <h2>Contact Us</h2>
@@ -81,6 +93,7 @@
   </div>
 </div>
   </section>
+    <div id="footer"></div>
 </body>
 
 </html>

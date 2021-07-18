@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link rel="stylesheet" href="header.css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+  </script>
+  <script>
+  $(function(){
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+  });
+  </script>
+  </head>
+  <body>
+    <nav class="fixed-top">
+      <div class="logo">
+        Rent A Ride
+      </div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li>
+          <label for="btn-1" class="show">CAR FLEET +</label>
+          <a href="#">CAR FLEET</a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <li><a href="mini.html">Mini</a></li>
+            <li><a href="sedan.html">Sedan</a></li>
+            <li><a href="suv.html">SUV</a></li>
+            <li><a href="lux.html">Lux</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-2" class="show">TAXI SERVICES +</label>
+          <a href="#">TAXI SERVICES</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+            <li><a href="#">Local</a></li>
+            <li><a href="#">Outstation</a></li>
+            <!-- <li>
+              <label for="btn-3" class="show">More</label>
+              <a href="#">Delhi</a>
+              <input type="checkbox" id="btn-3">
+               <ul>
+                          <li><a href="#">Submenu-1</a></li>
+                          <li><a href="#">Submenu-2</a></li>
+                          <li><a href="#">Submenu-3</a></li>
+                       </ul>
+            </li> -->
+          </ul>
+        </li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="login.html">LOG OUT</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
